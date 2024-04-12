@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    /* background-color: blue; */
+}
+body{
+    
+    height: 100vh;
+    /* width: 90%; */
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: azure;
+    height: 15vh;
+    
+}
+.
+
+    
+    
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    list-style: none;
+}
+.list a{
+    text-decoration: none;
+    color: rgb(112, 97, 97);
+}
+.list a:hover{
+    color: black;
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 9px;
+}
+.cart{
+    height: 3vh;
+}
+.avatar{
+    height: 6cqw;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70vh;
+    
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    width: 45%;
+}
+.shoe{
+    /* width: 45% */
+    height: 80%;
+    
+}
+.shoe img{
+    width: 100%;
+    height: 100%;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+.boxes img{
+    width: 55px;
+    border-radius: 10%;
+}
+.one{
+    border: 2px solid hsl(26, 100%, 55%);
+    color: hsl(25, 67%, 40%);
+}
+.right{
+    display: flex;
+    flex-direction:column ;
+    justify-content: space-around;
+    height: 100%;
+    width: 45%;
+    
+
+}
+.fall{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.fall h1{
+    font-size: 15px;
+    color: hsl(26, 100%, 55%);
+
+
+}
+.fall p{
+    font-size: 10px;
+}
+.fall span{
+    color:hsl(26, 100%, 55%);
+    border: 1px;
+    padding: 2px;
+    background-color: hsl(25, 100%, 94%);
+    border-radius:10% ;
+}
+.add{
+    display: flex;
+    justify-content: space-around;
+    flex-shrink: 0;
+}
+.add img{
+    /* width: 10%%; */
+    /* height: 5vh; */
+}
+.add button{
+    color: white;
+    background-color:hsl(26, 100%, 55%);    font-size: larger;
+    font-weight: bolder;
+    border: 1px;
+    border-radius: 10%;
+    width: 30vw;
+    cursor: pointer;
+}
+.to{
+    /* width: 5%; */
+    /* height: 5%; */
+}
